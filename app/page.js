@@ -49,7 +49,7 @@ export default function Home() {
             </div>
           </div>
           <div className='flex md:block justify-center shrink-0'>
-            <Image draggable={false} className='rounded-full p-1 border border-[#5758d3] dark:border-[#a88181] shrink-0' src='/images/ashish.jpg' alt='ashish' width={235} height={235} />
+            <Image draggable={false} className='rounded-full p-1 border border-[#5758d3] dark:border-[#a88181] shrink-0 h-[14.6875rem] w-[14.6875rem] object-cover' src='/images/aks6.png' alt='ashish' width={235} height={235} />
           </div>
         </div>
 

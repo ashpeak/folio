@@ -1,8 +1,23 @@
+"use client";
 import Image from 'next/image'
 import React from 'react';
 import Link from 'next/link';
 
-export default function page() {
+export default function Page() {
+
+    const [src, setSrc] = React.useState('/aks4.png');
+
+    React.useEffect(() => {
+        // Random image on every render and after certain interval
+        const interval = setInterval(() => {
+            const images = ['/aks1.png', '/aks2.png', '/aks3.png', '/aks4.png', '/aks5.png', '/aks6.png'];
+            const random = Math.floor(Math.random() * images.length);
+            setSrc(images[random]);
+        }, 10000);
+
+        return () => clearInterval(interval);
+    }, []);
+
     return (
         <div className='min-h-screen mt-24 mb-36 mx-6'>
             <div className='pb-7 pt-4 border-border-light dark:border-border-dark'>
@@ -11,7 +26,7 @@ export default function page() {
             </div>
 
             <div className='w-full bg-stone-100 rounded-md dark:bg-white/90 flex justify-center'>
-                <Image src={'/images/ashish.jpg'} alt='ashish' width={235} height={235} />
+                <Image src={`/images${src}`} alt='ashish' width={235} height={235} />
             </div>
 
             <div>
