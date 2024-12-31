@@ -107,14 +107,14 @@ export default function Home() {
 
             <p className="font-medium text-xl mb-1 tracking-tighter">Braintube</p>
 
-            <p className='leading-3 text-neutral-600 dark:text-neutral-400 text-sm mb-1 tracking-tighter'>Full Stack Developer - March - December 2022</p>
+            <p className='leading-3 text-neutral-600 dark:text-neutral-400 text-sm mb-1 tracking-tighter'>EDU • Full Stack Developer - March - December 2022</p>
 
             <ul className='list-disc pl-5 mt-4 md:w-[60%]'>
-              <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] text-base pb-3 leading-[1.25rem]'>Led the development team to deliver a high-quality, maintainable, and scalable website.</li>
-              <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] text-base pb-3 leading-[1.25rem]'>Developed both front-end and back-end using Next.js and Redis, ensuring responsive design and efficient API caching.</li>
-              <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] text-base pb-3 leading-[1.25rem]'>Collaborated with teams to gather requirements and deliver a tailored system meeting user needs.</li>
-              <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] text-base pb-3 leading-[1.25rem]'>Implemented a robust and secure payment gateway to enhance user trust and transaction reliability.</li>
-              <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] text-base leading-[1.25rem]'>Ensured the website was highly secure, maintainable, and adaptable for future growth.</li>
+              <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] text-base pb-3 leading-[1.25rem]'>Designed and developed both the front-end and back-end using React, Node.js, Express, MongoDB, and Redis for efficient API caching.</li>
+              <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] text-base pb-3 leading-[1.25rem]'>Implemented essential features such as user signup/login, course enrollment, and note-making to enhance user engagement.</li>
+              <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] text-base pb-3 leading-[1.25rem]'>Built a highly responsive website, ensuring seamless functionality across devices.</li>
+              <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] text-base pb-3 leading-[1.25rem]'>Delivered a maintainable and scalable platform with robust security measures.</li>
+              <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] text-base leading-[1.25rem]'>Focused on creating a user-friendly experience, aligning with best practices for web applications.</li>
             </ul>
 
           </div>
