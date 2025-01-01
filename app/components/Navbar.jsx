@@ -71,7 +71,7 @@ export default function Navbar() {
             </div>
 
             {/* Navbar for Mobile */}
-            <div className={`${isOpen ? ' translate-y-16' : ' -translate-y-[calc(100%+2rem)] '} md:hidden absolute top-0 left-0 right-0 backdrop-blur-[13px] p-4 mx-4 bg-secondary-dark/50 rounded-2xl transition duration-500 transform gap-4 text-sm font-semibold flex flex-col`} ref={navRef}>
+            <div className={`${isOpen ? ' translate-y-16' : ' -translate-y-[calc(100%+2rem)] '} text-black dark:text-white md:hidden absolute top-0 left-0 right-0 backdrop-blur-[13px] p-4 mx-4 bg-zinc-400/10 dark:bg-secondary-dark/50 rounded-2xl transition duration-500 transform gap-4 text-sm font-semibold flex flex-col`} ref={navRef}>
                 <Link onClick={closeNavbar} href={'/'} className="opacity-70 hover:opacity-95 transition-opacity duration-150">Home</Link>
                 <Link onClick={closeNavbar} href={'/about'} className="opacity-70 hover:opacity-95 transition-opacity duration-150">About</Link>
                 <Link onClick={closeNavbar} href={'/projects'} className="opacity-70 hover:opacity-95 transition-opacity duration-150">Projects</Link>

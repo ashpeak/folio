@@ -37,7 +37,7 @@ export const projects = [
         description: 'Braintube provides free, expert-designed courses, empowering learners with accessible education to enhance skills and succeed.',
         detail: 'Braintube offers free, expert-designed courses across various fields to empower individuals with accessible, top-quality education. Our mission is to make learning engaging, fun, and inclusive, fostering growth for beginners and professionals alike. Join us to enhance your future!',
         tags: ['React', 'Node', 'Express', 'Mongodb', 'Nodemailer', 'Redis', 'Socket.io'],
-        live: 'https://braintube.tech',
+        live: 'https://braintube.ashpeak.me/',
         github: 'https://github.com/ashpeak/Progify'
     },
     {
