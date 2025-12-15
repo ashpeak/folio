@@ -2,6 +2,26 @@
 export const projects = [
     {
         id: 1,
+        image: 'braintube.png',
+        title: 'Braintube',
+        description: 'Braintube provides free, expert-designed courses, empowering learners with accessible education to enhance skills and succeed.',
+        detail: 'Braintube offers free, expert-designed courses across various fields to empower individuals with accessible, top-quality education. Our mission is to make learning engaging, fun, and inclusive, fostering growth for beginners and professionals alike. Join us to enhance your future!',
+        tags: ['React', 'Node', 'Express', 'Mongodb', 'Nodemailer', 'Redis', 'Socket.io'],
+        live: 'https://braintube.ashpeak.me/',
+        github: 'https://github.com/ashpeak/Progify'
+    },
+    {
+        id: 2,
+        image: 'fitsheet.jpg',
+        title: 'TheFitsheets',
+        description: 'Built Fitsheets, an e-commerce site with Next.js, featuring a user-friendly interface, notifications, analytics, and optimized performance.',
+        detail: 'I developed Fitsheets, a full-stack e-commerce site for luxurious fitted sheets using Next.js for a sleek, SEO-optimized interface. Features include product browsing, user accounts, and a smooth cart experience. Cloudinary manages images, Twilio and Nodemailer handle notifications, and Klipfolio provides analytics for data-driven decisions.',
+        tags: ['NextJs', 'Next-Auth', 'Easebuzz', 'Mongodb', 'Cloudinary', 'Nodemailer', 'Twilio', 'Klipfolio'],
+        live: 'https://fitsheet.ashpeak.me/',
+        github: 'Confidential'
+    },
+    {
+        id: 3,
         image: 'blink.png',
         title: 'Blink.ai',
         description: 'Create videos using AI for scripts, APIs for media, and a dashboard for cloud-based editing without local compute.',
@@ -11,17 +31,7 @@ export const projects = [
         github: 'https://github.com/ashpeak/lizard-ai'
     },
     {
-        id: 2,
-        image: 'fitsheet.jpg',
-        title: 'TheFitsheets',
-        description: 'Built Fitsheets, an e-commerce site with Next.js, featuring a user-friendly interface, notifications, analytics, and optimized performance.',
-        detail: 'I developed Fitsheets, a full-stack e-commerce site for luxurious fitted sheets using Next.js for a sleek, SEO-optimized interface. Features include product browsing, user accounts, and a smooth cart experience. Cloudinary manages images, Twilio and Nodemailer handle notifications, and Klipfolio provides analytics for data-driven decisions.',
-        tags: ['NextJs', 'Next-Auth', 'Easebuzz', 'Mongodb', 'Cloudinary', 'Nodemailer', 'Twilio', 'Klipfolio'],
-        live: 'Out of Service',
-        github: 'Confidential'
-    },
-    {
-        id: 3,
+        id: 4,
         image: 'mingchat.png',
         title: 'MingChat',
         description: 'A chat platform with 1-on-1, group chats, admin controls, friend-making, guest login, and dynamic UI.',
@@ -29,16 +39,6 @@ export const projects = [
         tags: ['NextJs', 'Node', 'Mongodb', 'Redis', 'Socket.io', 'NodeMailer', 'Next-Auth'],
         live: 'Not hosted yet',
         github: 'Not available yet'
-    },
-    {
-        id: 4,
-        image: 'braintube.png',
-        title: 'Braintube',
-        description: 'Braintube provides free, expert-designed courses, empowering learners with accessible education to enhance skills and succeed.',
-        detail: 'Braintube offers free, expert-designed courses across various fields to empower individuals with accessible, top-quality education. Our mission is to make learning engaging, fun, and inclusive, fostering growth for beginners and professionals alike. Join us to enhance your future!',
-        tags: ['React', 'Node', 'Express', 'Mongodb', 'Nodemailer', 'Redis', 'Socket.io'],
-        live: 'https://braintube.ashpeak.me/',
-        github: 'https://github.com/ashpeak/Progify'
     },
     {
         id: 5,
