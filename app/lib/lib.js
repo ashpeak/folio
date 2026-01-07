@@ -7,7 +7,7 @@ export const projects = [
         description: 'Braintube provides free, expert-designed courses, empowering learners with accessible education to enhance skills and succeed.',
         detail: 'Braintube offers free, expert-designed courses across various fields to empower individuals with accessible, top-quality education. Our mission is to make learning engaging, fun, and inclusive, fostering growth for beginners and professionals alike. Join us to enhance your future!',
         tags: ['React', 'Node', 'Express', 'Mongodb', 'Nodemailer', 'Redis', 'Socket.io'],
-        live: 'https://braintube.ashpeak.me/',
+        live: 'https://braintube.kubacreatives.in/',
         github: 'https://github.com/ashpeak/Progify'
     },
     {
@@ -17,7 +17,7 @@ export const projects = [
         description: 'Built Fitsheets, an e-commerce site with Next.js, featuring a user-friendly interface, notifications, analytics, and optimized performance.',
         detail: 'I developed Fitsheets, a full-stack e-commerce site for luxurious fitted sheets using Next.js for a sleek, SEO-optimized interface. Features include product browsing, user accounts, and a smooth cart experience. Cloudinary manages images, Twilio and Nodemailer handle notifications, and Klipfolio provides analytics for data-driven decisions.',
         tags: ['NextJs', 'Next-Auth', 'Easebuzz', 'Mongodb', 'Cloudinary', 'Nodemailer', 'Twilio', 'Klipfolio'],
-        live: 'https://fitsheet.ashpeak.me/',
+        live: 'https://fitsheets.kubacreatives.in',
         github: 'Confidential'
     },
     {
@@ -39,9 +39,17 @@ export const projects = [
         tags: ['NextJs', 'Node', 'Mongodb', 'Redis', 'Socket.io', 'NodeMailer', 'Next-Auth'],
         live: 'Not hosted yet',
         github: 'Not available yet'
-    },
-    {
+    },{
         id: 5,
+        image: 'effitask.webp',
+        title: 'EffiTask',
+        description: 'A task management platform with projects, priorities, categories, due dates, calendar view, and analytics.',
+        detail: 'TaskMaster is a fully functional task management website designed to make organizing work effortless and intuitive. Users can create tasks with priorities, categories, and due dates, and group them inside projects for better structure. An inbuilt calendar helps visualize upcoming tasks, while analytics provide insights into completed, pending, due, and in-progress tasks. The platform delivers a clean, structured, and user-friendly experience for managing both personal and project-based workflows.',
+        tags: ['Vite', 'Node', 'Postgres', 'Socket.io', 'Clerk-Auth', 'FullCalendar', "Tailwind", 'Express', 'Drizzle'],
+        live: 'https://task-master-henna-tau.vercel.app/',
+        github: 'https://github.com/ashpeak/TaskMaster'
+    },{
+        id: 6,
         image: 'imdb.png',
         title: 'IMDB Clone',
         description: 'An IMDb clone offering features to discover and explore movies, TV shows, actors, and related information.',
@@ -51,7 +59,7 @@ export const projects = [
         github: 'https://github.com/ashpeak/IMDb'
     },
     {
-        id: 6,
+        id: 7,
         image: 'whisper.jpg',
         title: 'Whisper-Vault',
         description: 'WhisperVault is an anonymous platform for sharing secrets, enabling users to express themselves freely and securely.',

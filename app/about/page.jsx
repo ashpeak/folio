@@ -10,7 +10,7 @@ export default function Page() {
     React.useEffect(() => {
         // Random image on every render and after certain interval
         const interval = setInterval(() => {
-            const images = ['/aks1.png', '/aks2.png', '/aks3.png', '/aks4.png', '/aks5.png', '/aks6.png'];
+            const images = ['/aks1.webp', '/aks2.webp', '/aks3.webp', '/aks4.webp', '/aks5.webp', '/aks6.webp', '/aks7.webp'];
             const random = Math.floor(Math.random() * images.length);
             setSrc(images[random]);
         }, 10000);
