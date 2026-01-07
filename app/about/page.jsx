@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Page() {
 
-    const [src, setSrc] = React.useState('/aks4.png');
+    const [src, setSrc] = React.useState('/aks4.webp');
 
     React.useEffect(() => {
         // Random image on every render and after certain interval
@@ -39,7 +39,7 @@ export default function Page() {
                 </p>
 
                 <p className='mt-4'>
-                    <span className='font-bold underline'>Currently,</span> I&apos;m exploring TypeScript to broaden my development skills while deepening my understanding of web development. Alongside this, I’m actively working on adding advanced optimization techniques to my skill set, aiming to create more efficient, high-performing, and user-centric applications.
+                    <span className='font-bold underline'>Currently,</span> I&apos;m learning React Native to broaden my development skills while deepening my understanding of mobile app development. Alongside this, I&apos;m actively working on adding advanced optimization techniques to my skill set, aiming to create more efficient, high-performing, and user-centric applications.
                 </p>
                 
                 <p className='mt-4'>
@@ -52,13 +52,13 @@ export default function Page() {
 
                 <ul className='mt-4 list-disc list-inside pl-5'>
                     <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] font-medium'>
-                        <Link href='https://www.linkedin.com/in/ashishsingh09dev/' target='_blank' rel='noopener noreferrer'>LinkedIn</Link>
+                        <Link href='https://www.linkedin.com/in/ashpeak/' target='_blank' rel='noopener noreferrer'>LinkedIn</Link>
                     </li>
                     <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] font-medium'>
-                        <Link href='/' target='_blank' rel='noopener noreferrer'>Github</Link>
+                        <Link href='https://github.com/ashpeak' target='_blank' rel='noopener noreferrer'>Github</Link>
                     </li>
                     <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] font-medium'>
-                        <Link href='/' target='_blank' rel='noopener noreferrer'>Instagram</Link>
+                        <Link href='https://www.instagram.com/_.singhashish/' target='_blank' rel='noopener noreferrer'>Instagram</Link>
                     </li>
                     <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] font-medium'>
                         <Link href='/resume.pdf' target='_blank' rel='noopener noreferrer'>Resume</Link>
