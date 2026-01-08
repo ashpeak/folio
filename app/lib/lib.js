@@ -16,7 +16,7 @@ export const projects = [
         title: 'TheFitsheets',
         description: 'Built Fitsheets, an e-commerce site with Next.js, featuring a user-friendly interface, notifications, analytics, and optimized performance.',
         detail: 'I developed Fitsheets, a full-stack e-commerce site for luxurious fitted sheets using Next.js for a sleek, SEO-optimized interface. Features include product browsing, user accounts, and a smooth cart experience. Cloudinary manages images, Twilio and Nodemailer handle notifications, and Klipfolio provides analytics for data-driven decisions.',
-        tags: ['NextJs', 'Next-Auth', 'Easebuzz', 'Mongodb', 'Cloudinary', 'Nodemailer', 'Twilio', 'Klipfolio'],
+        tags: ['NextJs', 'NodJS', 'Express', 'Next-Auth', 'Easebuzz', 'Mongodb', 'Cloudinary', 'Nodemailer', 'Twilio', 'Klipfolio'],
         live: 'https://fitsheets.kubacreatives.in',
         github: 'Confidential'
     },

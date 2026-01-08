@@ -93,7 +93,7 @@ export default function Home() {
 
             <ul className='list-disc pl-5 mt-4 md:w-[60%]'>
               <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] text-base pb-3 leading-[1.25rem]'>Led the development team to deliver a high-quality, maintainable, and scalable website.</li>
-              <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] text-base pb-3 leading-[1.25rem]'>Developed both front-end and back-end using Next.js and Redis, ensuring responsive design and efficient API caching.</li>
+              <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] text-base pb-3 leading-[1.25rem]'>Developed both front-end and back-end using Next.js, Node.js, Express, MongoDB and Redis, ensuring responsive design and efficient API caching.</li>
               <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] text-base pb-3 leading-[1.25rem]'>Collaborated with teams to gather requirements and deliver a tailored system meeting user needs.</li>
               <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] text-base pb-3 leading-[1.25rem]'>Implemented a robust and secure payment gateway to enhance user trust and transaction reliability.</li>
               <li className='dark:text-[#c3c3c3] dark:[&::marker]:text-[#525252] [&::marker]:text-[#d4d4d4] text-[#404040] text-base leading-[1.25rem]'>Ensured the website was highly secure, maintainable, and adaptable for future growth.</li>
